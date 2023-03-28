@@ -1,0 +1,8 @@
+// This is a GET request to a server running on localhost at port 3000.
+// It is trying to retrieve users data from the server.
+
+GET http://localhost:3006/users?page=1&limit=5
+
+// This request includes two parameters in the query string:
+// - page: specifies which page of users to retrieve (in this case, page 1)
+// - limit: specifies how many users to retrieve (in this case, limit of 14 per page)
